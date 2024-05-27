@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+header {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 24px 25px; */
+  /* background-color: #7b7d7d; */
+}
+.logo p {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.function {
+  display: flex;
+  gap: 29px;
+}
+.function a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.tereg {
+  padding: 10px 6px;
+}
+.icon {
+  position: relative;
+}
+.note {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  border: solid green;
+  border-radius: 10px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f7fa;
+  width: 100%;
+  height: 100vh;
+}
+.with {
+  text-align: center;
+  margin-top: 81px;
+  margin-bottom: 61px;
+}
+.with h2 {
+  margin-bottom: 44px;
+  font-size: 60px;
+}
+.with p {
+  font-size: 19px;
+  opacity: 70%;
+}
+.call {
+  display: flex;
+  gap: 20px;
+}
+.call h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.call p {
+  opacity: 70%;
+  font-size: 21px;
+}
+.us {
+  display: flex;
+  gap: 61px;
+  margin-bottom: 61px;
+}
+.ner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.support {
+  width: 50%;
+  margin-bottom: 32px;
+}
+.support input {
+  width: 96%;
+  padding: 10px;
+  margin-top: 7px;
+  border-radius: 6px;
+  border: 1px solid #e7e9ed;
+}
+.message {
+  width: 100%;
+  height: 188px;
+}
+.message input {
+  width: 98%;
+  margin-top: 7px;
+  border-radius: 6px;
+  border: 1px solid #e7e9ed;
+  padding: 10px;
+}
+.sub input {
+  background-color: #473bf0;
+  padding: 10px 40px;
+  color: white;
+}
+.send {
+  background-color: white;
+  padding: 39px 45px;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  display: flex;
+  margin-top: 121px;
+  gap: 150px;
+  margin-bottom: 108px;
+}
+.foot h3 {
+  color: #161c2d;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.foot ul li {
+  list-style-type: none;
+  font-size: 17px;
+}
+.foot ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.foot li p {
+  font-weight: bold;
+  color: #473bf0;
+}
+.bottom {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  padding: 33px;
+  border-top: 2px solid #e7e9ed;
+}
